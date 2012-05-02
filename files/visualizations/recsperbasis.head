@@ -1,0 +1,39 @@
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type="text/javascript">
+      google.load("visualization", "1", {packages:["corechart", "table"]});
+      google.setOnLoadCallback(drawChart);
+      function drawChart() {
+        var data = new google.visualization.DataTable();
+        data.addColumn('string', 'Basis of record');
+        data.addColumn('number', 'Records');
+        
+data.addRows(4);data.setValue(0, 0, 'Observation');
+data.setValue(0, 1, 2099976);
+data.setValue(1, 0, 'Specimen');
+data.setValue(1, 1, 1965154);
+data.setValue(2, 0, 'Unknown');
+data.setValue(2, 1, 1132055);
+data.setValue(3, 0, 'Fossil');
+data.setValue(3, 1, 12974);
+        var chart = new google.visualization.PieChart(document.getElementById('chart_div'));
+        chart.draw(data, {width: 750, height: 600, title: 'Datasets per type of record for publisher 57'});
+
+		var tableData = new google.visualization.DataTable();
+        tableData.addColumn('string', 'Basis of record');
+        tableData.addColumn('number', 'Records');
+		
+tableData.addRows(4);
+tableData.setValue(0, 0, 'Observation');
+tableData.setValue(0, 1, 2099976);
+tableData.setValue(1, 0, 'Specimen');
+tableData.setValue(1, 1, 1965154);
+tableData.setValue(2, 0, 'Unknown');
+tableData.setValue(2, 1, 1132055);
+tableData.setValue(3, 0, 'Fossil');
+tableData.setValue(3, 1, 12974);
+		
+		var tableChart = new google.visualization.Table(document.getElementById('table_div'));
+        tableChart.draw(tableData, {width: 250, title: 'Datasets per type of record for publisher 57'});
+		
+      }
+    </script>

@@ -1,0 +1,34 @@
+Version 0.3
+========
+
+- Publisher and Collection selection system improved with 'on the fly' filtering of names
+- More compact design
+
+Version 0.2
+========
+
+- Publisher and Collection selection system changed.
+- Visualizations appear in same tab, not new.
+- Database, publisher and collection values are stored in session and mantained when going "back", either by button or mouse
+
+Version 0.1
+========
+
+- Initial release.
+- Contains the following visualizations:
+	* General information and completion levels
+	* Records per dataset - Pie chart
+	* Records per type (basis) - Pie chart
+	* Datasets per declared type of record (basis) - Pie chart
+	* Records per day of week among collections
+	* Records per day of year among collections
+	* Map
+	* Records per country - Pie chart
+	* Records per year, with and without filter - Scatter plot
+	* Record density per day of year- Hebdogram
+	* Record density per day of week and month - Hebdogram
+	* Average records and standard error among years - Scatter plot
+	* Chronhorogram
+	* Records per kingdom - Pie chart
+	* Pure taxonomic treemap
+	* Occurrences' taxonomy treemap

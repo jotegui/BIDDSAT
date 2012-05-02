@@ -1,0 +1,937 @@
+body {
+	height:100%;
+	
+	padding:0;
+	margin:0;
+
+	background-color:white;
+	
+	font-family: Verdana;	
+	font-size:9pt;
+	font-weight:normal;
+	
+	text-align:center;
+}
+
+#documento {
+	display:block;
+	
+	width:920px;
+	height:auto;
+	
+	margin:10px auto;	
+	padding:1px;
+
+	border:none;
+	background:white;
+	
+	text-align:left;
+	
+	overflow:hidden;
+}
+/****************************************************************************/
+
+
+
+
+
+/****************************************************************************/
+/** CABECERA                                                                                                                                **/
+/****************************************************************************/
+#cabecera {
+	display:block;
+	
+	width:920px;
+	height:82px;	
+	
+	padding:0px 0px;
+	margin:0px 0px;	
+		
+	background-color:white;	
+	
+	border-top: 1px solid #CFCFCF;
+	border-bottom: 1px solid #CFCFCF;
+}
+
+
+
+	/****************************************************************************/
+	/** FOTO ESQUINA                                                                                                                 **/
+	/****************************************************************************/
+	#foto-esquina {
+		float:left;
+		display:block;
+			
+		width:155px;
+		height:76px;
+		
+		padding:0px 0px 0px 0px;
+		margin:0px 0px 0px 0px;
+		
+		border-top:3px solid white;
+		border-bottom:3px solid white;
+	}
+
+	#foto-esquina  img {
+		padding:0;
+		margin:0;
+		
+		border:none;
+	}
+	/****************************************************************************/
+	
+	
+	
+	
+	/****************************************************************************/
+	/** CATEDRA / INSTITUTO                                                                                                           **/
+	/****************************************************************************/
+	#nombre-catedra {
+		float:left;
+		display:block;
+		
+		width:520px;
+		height:75px;
+		
+		padding:0;
+		margin:0;	
+	}
+	
+	#catedra-td {		
+		display: table-cell;  
+		vertical-align: middle;	
+		
+		width:520px;
+		height: 75px;
+			
+		padding:0px 0px 0px 0px;
+		margin:0px 0px 0px 0px;		
+		
+		font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+		font-size:16pt;
+		font-weight:bold;
+		color:white;		
+		
+		line-height:22px;
+	}
+	
+	#catedra {
+		display:block;
+		
+		width:520px;
+		
+		padding:0px;
+		margin:0px 0px;
+		
+		font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+		font-size:14pt;
+		font-weight:bold;
+		color:black;
+		
+		line-height:100%;
+				
+		letter-spacing: .0ex;
+		word-spacing: .0ex;	
+	}
+	
+	#fac {
+		display:block;
+		
+		width:520px;
+		
+		padding:0px;
+		margin:0px 0px;	
+		
+		font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+		font-size:10pt;
+		font-weight:normal;
+		color:#6f6f6f;
+	}
+
+	#fac  a {
+		display:block;
+		
+		padding:0px;
+		margin:0px;
+		
+		font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+		font-size:10pt;
+		font-weight:normal;
+		color:#6f6f6f;	
+		text-decoration:none;
+	}
+	/****************************************************************************/
+	
+	
+	
+	
+	/****************************************************************************/
+	/** MARCA UNIVERSIDAD                                                                                                             **/
+	/****************************************************************************/
+	#logotipo {
+		float:right;
+		display:block;
+			
+		width:205px;
+		height:75px;
+		
+		padding:0;
+		margin:0;
+		
+		border-top:3px solid white;
+		border-bottom:3px solid white;
+	}
+
+	#logotipo img {
+		padding:0;
+		margin:0;
+		
+		border:none;
+	}
+	/****************************************************************************/
+
+
+	
+/****************************************************************************/
+	
+	
+	
+	
+	
+/****************************************************************************/
+/**     MENUBAR                                                                                                                            **/
+/****************************************************************************/
+#menubar {
+	display:block;
+	
+	width:918px;
+	height:20px;	
+	
+	padding:0;
+	margin: 10px 0px 0px 0px;	
+		
+	background-color:white;	
+}
+
+
+
+	/****************************************************************************/
+	/** IDIOMA                                                                                                                                  **/
+	/****************************************************************************/
+	#version {
+		float: right;
+		display:block;
+		
+		width:115px;	
+		height:20px;	
+		
+		padding:0;
+		margin:1px 0px 3px 10px;
+		
+		text-align:left;
+		
+		font-family: Verdana, Arial, Helvetica, sans-serif;
+		font-size:8pt;
+		font-weight:normal;
+		color:#ef9701;	
+		text-decoration:none;
+	}
+
+	#version a {
+		display:block-inline;
+		
+		padding:0px;
+		margin:0px 0px 0px 0px;	
+		
+		font-family: Verdana, Arial, Helvetica, sans-serif;
+		font-size:8pt;
+		font-weight:normal;
+		color:#ef9701;	
+		text-decoration:none;
+	}
+	/****************************************************************************/
+
+	
+
+	/****************************************************************************/
+	/** FORMULARIO BUSQUEDAS DE GOOGLE                                                                                  **/
+	/****************************************************************************/
+	#buscando {
+		float: right;
+		display:block;
+		
+		width:125px;	
+		height:20px;
+		
+		padding:0;
+		margin:0px;
+	}
+	
+	.google-form  {
+		top:0px;
+		left:12px;
+		display:block;
+		
+		border:none;
+	
+		margin:0px 0px; 
+		padding: 0px;
+		
+		text-align:right;
+	}	
+
+	.google-text {
+		display:inline !important;
+		
+		width:100px !important;
+		height:12px !important;
+		margin:0px !important;
+		padding:1px 2px 1px 2px !important;
+		
+		border:1px solid rgb(239,239,239) !important;
+		background-color: rgb(239, 239, 239) !important;
+		
+		font-family: Verdana, Arial, Helvetica, sans-serif !important;
+		font-size:8pt !important;
+		font-weight:normal !important;		
+		color: #6f6f6f !important;
+	}
+	
+	.google-redondo {
+		display:block-inline;
+		
+		margin:0px;
+		padding:0px;
+		
+		vertical-align:middle;		
+	}
+	/****************************************************************************/
+
+
+
+/****************************************************************************/
+	
+	
+	
+	
+	
+/****************************************************************************/
+/**     CUERPO                                                                                                                               **/
+/****************************************************************************/	
+	
+	
+	
+	/****************************************************************************/
+	/**  COLUMNA IZQUIERDA - MENU                                                                                              **/
+	/****************************************************************************/		
+	#leftcolumn { 
+		clear:both;
+		float: left;
+		
+		width: 170px;
+		min-height:500px;
+		
+		color: black;
+		border: none;
+		background: white;
+		
+		margin: 0px 0px 10px 0px;
+		
+		padding: 0px;
+	}	
+	
+		hr.separador {			
+			width: 90%;
+			border-top: none;
+			border-right: none;
+			border-left: none;
+			border-bottom: 1px dotted #ef9701;
+		}	
+
+		
+		
+		
+/****************************************************************************/
+/** MENU DE CONTENIDOS                                                     **/
+/****************************************************************************/
+.modulo-menu {
+	width: 95%;
+	padding-top:1px;
+	padding-right:5%;
+}
+
+.menu-level-1 { 
+	display: block;
+	width:auto;
+	list-style-type:none; 
+	margin:0px; 
+	padding:0px 0px; 
+}
+
+.menu-level-1 li { margin:0px; padding:0px; }
+
+.menu-level-1 a {
+	display: block;
+	width:auto;
+	padding-top: 0.6em;
+	padding-right: 6px;
+	padding-bottom: 0.6em;
+	padding-left: 6px;
+	
+	background-color: #d4d4d4;
+	
+	font-size: 8pt;
+	font-weight: bold;
+	
+	color: black; 
+	text-decoration: none; 
+	
+	border-bottom:1px solid white;
+}
+
+.menu-level-1 a:hover { color:white;  background-color:#EF9701;}
+/****************************************************************************/
+.menu-level-2 { 
+	list-style-type:none; 
+	margin:0px; 
+	padding:0px 0px; 
+}
+.menu-level-2 li { margin:0px; padding:0px; }
+
+.menu-level-2 a {
+	display: block;
+	width:auto;
+	padding-top: 0.6em;
+	padding-right: 18px;
+	padding-bottom: 0.6em;
+	padding-left: 6px;
+	
+	background-color: #e8e8e8;
+	
+	font-size: 8pt;
+	font-weight: normal;
+	
+	color: black; 
+	text-decoration: none; 
+	
+	border-bottom:1px solid white;
+}
+
+.menu-level-2 a:hover { color:white; background-color: #EF9701; }
+/****************************************************************************/
+.menu-level-3 {
+	list-style-type:none; 
+	margin:0px; 
+	padding:0px 0px; 
+}
+.menu-level-3 li { margin:0px; padding:0px;  }
+
+.menu-level-3 a {
+	display: block;
+	width:auto;
+	padding-top: 0.6em;
+	padding-right: 18px;
+	padding-bottom: 0.6em;
+	padding-left: 6px;
+	
+	background-color: white;
+	
+	font-size: 8pt;
+	font-weight: normal;
+	
+	color: black; 
+	text-decoration: none; 
+	
+	border-bottom:1px solid white;
+}
+
+.menu-level-3 a:hover {
+	background-color:white !important;
+	color: black !important;
+	font-weight:bold;	
+}
+
+.menu-level-3 a.menu-activa {
+	background-color:white !important;
+	color:black;
+	font-weight:bold;	
+}
+
+.menu-level-3 a.menu-activa:hover {
+	font-weight:bold;
+}
+
+/****************************************************************************/
+a.menu-activa { 
+	color:white;
+	background-color: #EF9701;
+}
+
+.icono-mas-ena {
+	padding-right: 18px;
+	background-image: url("minus-white.gif");
+	background-position: 97% center;
+	background-repeat: no-repeat;
+}
+
+.icono-mas-dis {
+	padding-right: 18px;
+	background-image: url("more-gray.gif");
+	background-position: 97% center;
+	background-repeat: no-repeat;
+}
+
+.icono-mas-dis:hover {
+	padding-right: 18px;
+	background-image: url("more-white.gif");
+	background-position: 97% center;
+	background-repeat: no-repeat;
+}
+/****************************************************************************/
+
+
+
+
+
+		/****************************************************************************/
+		/** MENU                                                                                                                                      **/
+		/****************************************************************************/
+		ul.menu {
+			display:block;
+			list-style-type:none;
+			
+			width:170px;
+			
+			overflow: hidden;
+			
+			margin:0px 0px 10px 0px;
+			padding:0px;		
+		}
+
+		ul.menu li {
+			display:block;
+			
+			width:145px;
+			
+			margin:10px 15px 10px 10px;
+			padding:0px;
+					
+			line-height: 110%;
+		}
+		/****************************************************************************/	
+		a.enlace-menu {
+			display:block;
+			
+			margin:0px 0px;
+			padding:0px;
+			
+			font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+			font-size:9pt;
+			font-weight:normal;
+			color:black;
+					
+			text-decoration:none;
+		}
+
+		a.enlace-menu:hover {		
+			color:#ef9701;
+		}
+
+		a.enlace-menu-activo {
+			display:block;
+			
+			font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+			font-size:9pt;
+			font-weight:normal;
+			color:#ef9701;
+					
+			text-decoration:none;
+		}
+		/****************************************************************************/
+		a.enlace-menu-exponent {
+			display:block-inline;
+			
+			margin:0px 0px;
+			padding:4px;
+			
+			background-color:rgb(204,204,204);
+
+			font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+			font-size:9pt;
+			font-weight:normal;
+			color:black;
+					
+			text-decoration:none;
+		}
+
+		a.enlace-menu-exponent:hover {		
+			color:white;
+		}	
+		/****************************************************************************/
+		a.enlace-submenu {
+			display:block;
+			
+			margin:0px 0px 0px 10px;
+			padding:0px;
+			
+			font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+			font-size:9pt;
+			font-weight:normal;
+			color:black;
+					
+			text-decoration:none;
+		}
+		
+		a.enlace-submenu:hover {		
+			color:#ef9701;
+		}
+		
+		a.enlace-submenu-activo {
+			display:block;
+			
+			margin:0px 0px 0px 10px;
+			padding:0px;
+			
+			font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+			font-size:9pt;
+			font-weight:normal;
+			color:#ef9701;
+					
+			text-decoration:none;
+		}	
+		/****************************************************************************/
+		a.enlace-submenu2 {
+			display:block;
+			
+			margin:0px 0px 0px 20px;
+			padding:0px;
+			
+			font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+			font-size:9pt;
+			font-weight:normal;
+			color:black;
+					
+			text-decoration:none;
+		}
+		
+		a.enlace-submenu2:hover {		
+			color:#ef9701;
+		}
+		
+		a.enlace-submenu2-activo {
+			display:block;
+			
+			margin:0px 0px 0px 20px;
+			padding:0px;
+			
+			font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+			font-size:9pt;
+			font-weight:normal;
+			color:#ef9701;
+					
+			text-decoration:none;
+		}	
+		/****************************************************************************/
+		
+		
+		
+	/****************************************************************************/
+	
+	
+	
+	
+	
+	/****************************************************************************/
+	/** 	CONTENIDO                                                                                                                         **/
+	/****************************************************************************/
+	#content { 
+		float: left;
+		display: block;
+		
+		width: 750px;
+		min-height:500px;
+		
+		color: #333;
+		border: none;
+		background: white;
+		
+		margin: 5px 0px 10px 0px;		
+		padding: 0px;
+	}
+	
+	
+	
+		/****************************************************************************/
+		/** RUTA DE NAVEGACIÓN                                                                                                           **/
+		/****************************************************************************/
+		#ruta-navegacion {
+			float:left;
+			display:block;
+			
+			width: 750px;
+			
+			padding:0px 0px 0px 0px;
+			margin:0px 0px 5px 0px;	
+			
+			font-family: Verdana, Arial, Helvetica, sans-serif;
+			font-size:8pt;
+			font-weight:normal;
+			color:#aaaaaa;				
+		}
+		
+		#ruta-navegacion a {		
+			display:inline;
+			
+			padding:0px;
+			margin:0px 0px;	
+			
+			font-family: Verdana, Arial, Helvetica, sans-serif;
+			font-size:8pt;
+			font-weight:normal;
+			color:#6f6f6f;
+			text-decoration:none;
+		}
+		
+		#ruta-navegacion a.activa {		
+			display:inline;
+			
+			padding:0px;
+			margin:0px 0px;	
+			
+			font-family: Verdana, Arial, Helvetica, sans-serif;
+			font-size:8pt;
+			font-weight:normal;
+			color:#ef9701;
+			text-decoration:none;
+		}
+		/****************************************************************************/		
+		#titulo-menu {
+			float:left;
+			display:block;
+			
+			width: 750px;
+			
+			padding:0px;
+			margin: 10px 0px 20px 0px;
+		}		
+		/****************************************************************************/		
+		#content-body {
+			position:relative;
+			float:left;
+			display:block;
+			
+			background-color:white;
+			
+			width:750px;
+			min-width: 470px;		
+			
+			padding:0px;
+			margin:0px 0px 15px 0px;		
+			
+			font-family: Verdana, Arial, Helvetica, sans-serif;
+			font-size: 10pt;		
+			font-weight:normal;
+			color:black;
+		}	
+		/****************************************************************************/
+		
+
+	
+	/****************************************************************************/
+	
+		
+		
+/****************************************************************************/	
+
+
+
+
+
+/****************************************************************************/
+/** PIE                                                                                                                                         **/
+/****************************************************************************/
+#pie {
+	position:relative;
+	display:block;
+	
+	width:920px;
+	height:60px;
+	
+	padding: 3px 0px 0px 0px;
+	margin:0px 0px 0px 0px;	
+	
+	border-top: 1px dotted #c9c9c6;
+	
+	background-color:white;
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:8pt;
+	font-weight:normal;
+	color:black;
+	
+	text-align:left;
+	
+	overflow:hidden;
+}
+
+
+
+	/****************************************************************************/
+	/** DATOS                                                                                                                                    **/
+	/****************************************************************************/
+	#copyright { 
+		float: left;
+		
+		width: 920px;	
+		height: 15px;
+		
+		color: #333;
+		border: none;
+		background: white;
+		
+		margin: 0px 0px 0px 0px;
+		
+		padding: 0px;
+	}
+	
+	#copyright a { 
+		margin:0px; 
+		padding:0px; 
+		
+		color:black; 
+		
+		text-decoration:none;
+		
+		font-family: Verdana, Arial, Helvetica, sans-serif;
+		font-size:8pt;
+		font-weight:normal;
+		color:black;	
+	}
+	/****************************************************************************/
+	
+	
+	
+/****************************************************************************/
+
+
+
+
+
+/****************************************************************************/
+/** ENLACES EN EL PIE                                                                                                           **/
+/****************************************************************************/
+#enlaces-pie {	
+	clear:both;
+	display:block-inline;
+	float:left;	
+	
+	width: 900px;
+	
+	border-top: 1px dotted #c9c9c6;
+	
+	padding:10px 0px;
+	margin:20px 0px 0px 0px;
+}
+
+.bloque-a {
+	display:block;
+	float:left;
+	
+	width: 200px;
+	
+	padding:0px;
+	margin:0px;
+}			
+
+.bloque-b {
+	display:block;
+	float:left;
+	
+	width: 150px;
+	
+	padding:0px;
+	margin:0px;
+}	
+
+.bloque-c {
+	display:block;
+	float:left;
+	
+	width: 300px;
+	
+	padding:0px;
+	margin:0px;
+}
+
+.bloque-d {
+	display:block;
+	float:left;
+	
+	width: 150px;
+	
+	padding:0px;
+	margin:0px;
+}
+
+.bloque-e {
+	display:block;
+	float:left;
+	
+	width: 100px;
+	
+	padding:0px;
+	margin:0px;
+}		
+
+.bloque-a h2, .bloque-b h2, .bloque-c h2, .bloque-d h2, .bloque-e h2 {
+	display: block;
+	
+	margin:0px;
+	padding:0px;
+	
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;				
+	font-size: 10pt;
+	font-weight: bold;
+	
+	color:#555555;				
+}
+
+.bloque-a ul, .bloque-b ul, .bloque-c ul, .bloque-d ul, .bloque-e ul {
+	display: block;
+	list-style-type: none;
+	
+	margin: 7px 20px 7px 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+.bloque-a li, .bloque-b li, .bloque-c li, .bloque-d li, .bloque-e li {
+	display: block;
+	list-style-type: none;
+	
+	margin: 0px 0px 0px 0px;
+	padding: 2px 0px 2px 0px;
+	
+	font-family: Verdana;
+	font-size: 7pt;
+	font-weight: normal;
+	
+	color:#707070;
+	text-decoration:none;
+}
+
+
+.bloque-a a, .bloque-b a, .bloque-c a, .bloque-d a, .bloque-e a {
+	display:block-inline;				
+	
+	font-family: Verdana;
+	font-size: 7pt;
+	font-weight: normal;
+	
+	color:#707070;
+	text-decoration:none;				
+}
+
+.bloque-a a:hover, .bloque-b a:hover, .bloque-c a:hover, .bloque-d a:hover, .bloque-e a:hover {
+	color: rgb(150,34,26);
+}
+/****************************************************************************/

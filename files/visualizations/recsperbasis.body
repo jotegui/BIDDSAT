@@ -1,0 +1,4 @@
+    <table><tr>
+    <td><div id="chart_div"></div></td>
+	<td><div id="table_div"></div></td>
+	</tr></table>

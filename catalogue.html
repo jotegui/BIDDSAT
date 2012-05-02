@@ -1,0 +1,97 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html>
+<head>
+<title>BIDDSAT: Biodiversity Datasets Assessment Tool</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<script src="./files/scripts.js" type="text/javascript"></script>
+<!-- Imported from UNAV -->
+<link rel="stylesheet" href="./files/style.css" type="text/css" />
+<link rel="stylesheet" href="./files/interna_sin_anexo.css" type="text/css" />
+<link rel="shortcut icon" href="http://www.unav.es/favicon.ico" />
+<!-- End of import block -->
+</head>
+<body><div id="documento">
+			<div id="cabecera">
+				<!--<div id="foto-esquina"><div style="position:relative; z-index:1; width:100%;">
+					<img src="http://www.unav.es/evento/voluntarios-ambientales/files/slideshowmodule/interiores_ES/blanco_160_75.jpg" />
+				</div></div>-->
+				<div id="nombre-catedra">
+					<table>
+						<tr>
+							<td id="catedra-td">
+								<h1 id="catedra">
+									Biodiversity Datasets Assessment Tool
+								</h1>
+								<span id="fac">
+									<a href="http://www.unav.es/departamento/unzyec/" title="Dept. Zoology and Ecology">
+										DEPT. ZOOLOGY AND ECOLOGY
+									</a>
+								</span>
+							</td>
+						</tr>
+					</table>
+				</div>
+				<div id="logotipo"><a href="http://www.unav.es" title="Universidad de Navarra"><img src="http://www.unav.es/evento/voluntarios-ambientales/themes/unavcongresotheme/imagenes/marca-page.png" alt="Universidad de Navarra" /></a></div>
+				</div>
+<p></p>				
+<table width="100%" bgcolor="lightgrey" style="border-width:thin; border-style:solid;">
+<tr height="30"><td colspan="5" align="center"><i><b>Click one to see example and description</b></i></td></tr>
+<td width="20%"
+title="General volume and feature completion information on the publisher/collection. If only publisher is selected, completion plots are shown."
+align="center" onmouseover="this.bgColor='grey'" onmouseout="this.bgColor='lightgrey'" onclick="bring('info')"><img src="./icons/info3.png" width="60" /><br><font size="1">Info</font></td>
+<td width="20%"
+title="Number of records for each collection. This assessment can only be performed over the general content of a publisher, not over individual collections. Type: Pie Chart."
+align="center" onmouseover="this.bgColor='grey'" onmouseout="this.bgColor='lightgrey'" onclick="bring('recsperres')"><img src="./icons/pie1.png" width="60"/><br><font size="1">Records per dataset</font></td>
+<td width="20%"
+title="Number of records declared as Observations, Museum specimens or any of the other types by the publisher. Type: Pie Chart."
+align="center" onmouseover="this.bgColor='grey'" onmouseout="this.bgColor='lightgrey'" onclick="bring('recsperbasis')"><img src="./icons/types4.png" width="60"/><br><font size="1">Records per type</font></td>
+<td width="20%"
+title="Number of data collections according to the declared type of record (observations, specimens...). This assessment can only be performed over the general content of a publisher, not over individual collections. Type: Pie Chart."
+align="center" onmouseover="this.bgColor='grey'" onmouseout="this.bgColor='lightgrey'" onclick="bring('resperbasis')"><img src="./icons/pie2.png" width="60"/><br><font size="1">Collections per type of record</font></td>
+<td width="20%"
+title="Map showing the density of records. Projection is equirectangular. Color follows a cold-hot exponential scale, dark blue representing only 1 record and brown representing more than 2048 records for the same lat-lon combination."
+align="center" onmouseover="this.bgColor='grey'" onmouseout="this.bgColor='lightgrey'" onclick="bring('map')"><img src="./icons/map.png" width="60"/><br><font size="1">Map</font></td>
+</tr>
+<tr height="10"></tr>
+<tr>
+<td width="20%"
+title="Distribution of records among declared countries. Country values follow the ISO-3166-1 alpha-2 code, which assigns a unique combination of two letters to each country. Type: Pie Chart."
+align="center" onmouseover="this.bgColor='grey'" onmouseout="this.bgColor='lightgrey'" onclick="bring('recspercountry')"><img src="./icons/countries.png" width="60"/><br><font size="1">Records per country</font></td>
+<td width="20%"
+title="Number of records declared to be sampled each year from 1750 to present. Volume of records can be represented over an arithmetic or logarithmic axis. Type: Scatter Plot."
+align="center" onmouseover="this.bgColor='grey'" onmouseout="this.bgColor='lightgrey'" onclick="bring('recsperyear')"><img src="./icons/filtered.png" width="60"/><br><font size="1">Records per year (Filtered)</font></td>
+<td width="20%"
+title="Number of records declared to be sampled each year, with no filtering for feasible years. Volume of records can be represented over an arithmetic or logarithmic axis. Type: Scatter Plot."
+align="center" onmouseover="this.bgColor='grey'" onmouseout="this.bgColor='lightgrey'" onclick="bring('recsperyearall')"><img src="./icons/unfiltered.png" width="60"/><br><font size="1">Records per year (All)</font></td>
+<td width="20%"
+title="Distribution of record density for each day-of-year. Type:Hebdoplot."
+align="center" onmouseover="this.bgColor='grey'" onmouseout="this.bgColor='lightgrey'" onclick="bring('recsdomvsmonth')"><img src="./icons/Year.png" width="60"/><br><font size="1">Record density, day of year</font></td>
+<td width="20%"
+title="Distribution of record density for each day-of-week and each month. Type:Hebdoplot."
+align="center" onmouseover="this.bgColor='grey'" onmouseout="this.bgColor='lightgrey'" onclick="bring('recsdowvsmonth')"><img src="./icons/Week.png" width="60"/><br><font size="1">Record density, day of week</font></td>
+</tr>
+<tr height="10"></tr>
+<tr>
+<td width="20%"
+title="Average value of the record volume for each day-of-year among years, +/- Standard Error. Type: Scatter Plot."
+align="center" onmouseover="this.bgColor='grey'" onmouseout="this.bgColor='lightgrey'" onclick="bring('recsperdayofyear')"><img src="./icons/avg.png" width="60"/><br><font size="1">Average records among years</font></td>
+<td width="20%"
+title="Temporal distribution of records. Each dot represents a unique date. Radius reflects year (center=1750, perimeter=now) and clockwise angle from vertical reflects day-of-year (0º=Jan-1, 359º=Dec-31). Color follows a cold-hot exponential scale, dark blue representing only 1 record and brown representing more than 2048 records."
+align="center" onmouseover="this.bgColor='grey'" onmouseout="this.bgColor='lightgrey'" onclick="bring('diatom')"><img src="./icons/chronh.png" width="60"/><br><font size="1">Chronhorogram</font></td>
+<td width="20%"
+title="Number of records declared to belong to each taxonomic kingdom. Type: Pie Chart."
+align="center" onmouseover="this.bgColor='grey'" onmouseout="this.bgColor='lightgrey'" onclick="bring('recsperkingdom')"><img src="./icons/kingdom.png" width="60"/><br><font size="1">Records per kingdom</font></td>
+<td width="20%"
+title="Nested surface map where size of the cell reflects number of species name strings belonging to that taxonomic group. Color enhances comparisons between kingdoms."
+align="center" onmouseover="this.bgColor='grey'" onmouseout="this.bgColor='lightgrey'" onclick="bring('spetreemap')"><img src="./icons/treemapT.png" width="60"/><br><font size="1">Tree Map of Taxonomy</font></td>
+<td width="20%"
+title="Nested surface map where size of the cell reflects number of records belonging to that taxonomic group. Color enhances comparisons between kingdoms."
+align="center" onmouseover="this.bgColor='grey'" onmouseout="this.bgColor='lightgrey'" onclick="bring('rectreemap')"><img src="./icons/treemapR.png" width="60"/><br><font size="1">Tree Map of Records</font></td>
+</tr><tr height="30"></tr></table><p></p>
+<input type="button" value="Back" onclick="window.location='index.html'"><p></p>
+
+<div id="sample_plot">
+</div>
+
+</body></html>
