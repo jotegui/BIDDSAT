@@ -1,0 +1,34 @@
+BIDDSAT: BIoDiversity DataSet Assessment Tool
+=======
+
+AUTHOR: javier.otegui@gmail.com
+URL: http://www.unav.es/unzyec/mzna/biddsat/
+
+BACKGROUND and AIMS
+-------------------
+The Global Biodiversity Information Facility (GBIF) is now the most comprehensive common access to the data content of biodiversity institutions worldwide. Such institutions, also called data publishers, have agreed to share publicly their Primary Biodiversity Records (PBR) datasets through data exchange standards. The information in the data publishers is indexed by GBIF's mechanisms and, in order to ease data query and retrieval, a central index is built from certain standardized fields linking back to the original data.
+
+Feedback to the data publishers is essential in any quality control workflow. Data managers can detect biases and errors in data by assessing the quality and fitness-for-use of their own records from the general data users' perspective. Certain errors, mostly interoperability issues, cannot be detected by record-centric assessments: they arise as patterns visible only when visualizing large sets of records (often the entire collection) under certain arrangement criteria.
+
+This website is a basic online PBR visualization environment for the content of data publishers and/or collections within the GBIF network. The tools here allow exploring the content of such datasets as a whole and find patterns or biases that may impact their quality or usability. The visualizations could be used to detect potential errors, allowing data publishers to fix the issues at the source. In order to enable historical comparisons and track error correction, data from several versions of the index are accessible.
+
+MORE INFO
+---------
+GBIF Main Website - http://www.gbif.org/
+GBIF Data Portal - http://data.gbif.org/
+
+LICENSE
+=======
+This program is Copyright (C) 2012 Javier Otegui and is licensed under the GNU General Public License (GPL), version 3.
+
+IMPLEMENTATION REQUIREMENTS
+===========================
+
+SERVER REQUIREMENTS
+-------------------
+- PHP5 or higher
+- Imagick extension for PHP
+
+BROWSER REQUIREMENTS
+--------------------
+- Javascript

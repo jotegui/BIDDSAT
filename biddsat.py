@@ -8,7 +8,7 @@ class MainPage(webapp2.RequestHandler):
 
 class Biddsat(webapp2.RequestHandler):
 	def get(self):
-		self.response.headers['Content-type'] = 'text/HTML'
-		self.response.write('Hey there, it\'s me, BIDDSAT')
+		self.response.headers['Content-Type'] = 'text/HTML'
+		self.response.write('Yet to be developed')
 
 app = webapp2.WSGIApplication([('/', MainPage), ('/app/',Biddsat)], debug=True)
