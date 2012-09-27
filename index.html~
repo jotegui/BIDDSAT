@@ -94,7 +94,7 @@ For more information, please visit:
 <hr>
 <table width="100%" border="0" height="100"><tr><td width="25%"></td><td>
 <table width="100%" height="75%" border="2" cellpadding="4" cellspacing="0"><tr>
-<td align="center" height="30" bgcolor="lightgrey" onmouseover="this.bgColor='grey'" onmouseout="this.bgColor='lightgrey'" onclick="window.location='./biddsat.php'">Proceed to the application</td>
+<td align="center" height="30" bgcolor="lightgrey" onmouseover="this.bgColor='grey'" onmouseout="this.bgColor='lightgrey'" onclick="window.location='./app/biddsat.php'">Proceed to the application</td>
 </tr></table>
 </td><td width="25%"></td></tr></table>
 <hr>
@@ -102,7 +102,7 @@ For more information, please visit:
 <i><table width="100%"><tr><td>
 Comments and feedback are really appreciated, <a href="mailto:javier.otegui@SPAMBLOCKgmail.com">just give a little whistle.</a>
 </td><td align="right">
-Copyright (C) 2012 <a href="https://profiles.google.com/Javier.Otegui/about" target="_blank">Javier Otegui</a>
+Copyright (C) 2012 <a href="http://about.me/jotegui" target="_blank">Javier Otegui</a>
 </td></tr>
 <tr><td>
 Last Update: 2012-04-02 | v0.3 (<a href="files/changelog.txt" target="_blank">changelog</a>)
