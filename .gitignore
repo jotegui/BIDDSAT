@@ -41,6 +41,10 @@ Thumbs.db
 _*/
 files/_*/
 
+# Or any backup from gedit #
+############################
+*~
+
 # Also, ignore some folders #
 #############################
 data/
