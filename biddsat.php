@@ -32,7 +32,7 @@ $dataset = $_SESSION['dataset'];
 
 <html>
 <head>
-<title>BINDCAT: Biodiversity Institutions' Data Collections Assessment Tool</title>
+<title>BIDDSAT: Biodiversity Datasets Assessment Tool</title>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 <script src="./files/scripts.js" type="text/javascript"></script>
 <!-- Imported from UNAV -->
@@ -157,7 +157,7 @@ align="center" onmouseover="this.bgColor='grey'" onmouseout="this.bgColor='light
 title="Average value of the record volume for each day-of-year among years, +/- Standard Error. Type: Scatter Plot."
 align="center" onmouseover="this.bgColor='grey'" onmouseout="this.bgColor='lightgrey'" onclick="checker('recsperdayofyear')"><img src="./icons/avg.png" width="100"/><br><font size="1">Average records among years</font></td>
 <td width="20%"
-title="Temporal distribution of records. Each dot represents a unique date. Radius reflects year (center=1750, perimeter=now) and clockwise angle from vertical reflects day-of-year (0º=Jan-1, 359º=Dec-31). Color follows a cold-hot exponential scale, dark blue representing only 1 record and brown representing more than 2048 records."
+title="Temporal distribution of records. Each dot represents a unique date. Radius reflects year (center=1750, perimeter=now) and clockwise angle from vertical reflects day-of-year (0ï¿½=Jan-1, 359ï¿½=Dec-31). Color follows a cold-hot exponential scale, dark blue representing only 1 record and brown representing more than 2048 records."
 align="center" onmouseover="this.bgColor='grey'" onmouseout="this.bgColor='lightgrey'" onclick="checker('diatom')"><img src="./icons/chronh.png" width="100"/><br><font size="1">Chronhorogram</font></td>
 <td width="20%"
 title="Number of records declared to belong to each taxonomic kingdom. Type: Pie Chart."
